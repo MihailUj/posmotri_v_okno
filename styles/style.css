@@ -75,8 +75,8 @@ input::placeholder {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 100%;
-  margin-bottom: 16px;
+  height: 386px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -96,7 +96,6 @@ input::placeholder {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.6px;
-  padding-bottom: 5px;
 }
 
 .search-form__label {
@@ -134,7 +133,8 @@ input::placeholder {
 .search-form__checkbox-list {
   display: flex;
   flex-flow: row nowrap;
-  gap: 15px;
+  gap: 20px;
+  padding-top: 5px;
 }
 
 .search-form__pseudo-checkbox {
@@ -199,14 +199,14 @@ input::placeholder {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 26px;
+  gap: 19px;
 }
 
 .title {
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   text-transform: uppercase;
 }
 
@@ -219,6 +219,7 @@ input::placeholder {
   text-decoration: none;
   color: currentColor;
   margin: 2px;
+  padding: 2px;
 }
 
 .content__card-link:focus {
@@ -243,7 +244,7 @@ input::placeholder {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   padding-bottom: 6px;
   text-overflow: ellipsis;
   white-space: nowrap;
